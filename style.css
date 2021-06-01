@@ -30,6 +30,10 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
@@ -71,7 +75,7 @@ h4{
 .section > h3 {
     letter-spacing: var(--spacing);
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 /* --------------- */
@@ -225,6 +229,73 @@ nav{
     z-index: 100;
 }
 
+/* About */
+
+#about {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.about-me h4 {
+    font-size: 1.2rem;
+}
+
+.about-me{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tool {
+    display: grid;
+    grid-template-columns: 15% 10% 75%;
+    grid-column-gap: 10px;
+    margin: .8rem 0;
+}
+
+.rec {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: grey
+}
+
+.rec > p {
+    position: absolute;
+    left: 93%;
+    top: 0;
+    color: var(--clr-primary-3);
+}
+
+.rec-c {
+    height: 100%;
+    background-color: var(--clr-primary-1);
+    animation: move 7s infinite;
+}
+#r01   {
+    width: 80%;
+}
+#r02   {
+    width: 75%;
+}
+#r03   {
+    width: 70%;
+}
+#r04   {
+    width: 60%;
+}
+#r05   {
+    width: 80%;
+}
+#r06   {
+    width: 50%;
+}
+#r07  {
+    width: 60%;
+}
+
+
+
+
 /* Portfolio */
 
 .article-container {
@@ -374,6 +445,16 @@ article:hover .overlay{
     }
     100% {
       transform: scale(1);
+    }
+}
+
+@keyframes move {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100;
     }
 }
 
@@ -556,8 +637,32 @@ footer {
     }
 
 
+    /* About */
 
+    #about {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
 
+    .about-me h4 {
+        font-size: 1.2rem;
+    }
+
+    .tool {
+        display: grid;
+        grid-template-columns: 15% 10% 75%;
+        grid-column-gap: 10px;
+        margin: .8rem 0;
+    }
+
+    .rec {
+        height: 25px;
+        width: 100%;
+    }
+    .rec > p {
+       left: 90%;
+       top: 0;
+    }
 
     .article-container {
         grid-template-columns: auto auto;
@@ -674,6 +779,44 @@ footer {
     .center h1 {
         width: 80%;
     }
+
+    .scroll-top {
+        bottom: 2rem;
+        right: 1rem;
+    }
+    
+    /* About */
+
+    #about {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .about-me h4 {
+        font-size: 1rem;
+    }
+
+    .tool {
+        display: grid;
+        grid-template-columns: 20% 5% 75%;
+        grid-column-gap: 10px;
+        margin: .8rem 0;
+    }
+
+    .tool i {
+        font-size: 1rem;
+    }
+
+    .rec {
+        height: 20px;
+        width: 90%;
+    }
+    .rec > p {
+        font-size: .8rem;
+       left: 86%;
+       top: 0;
+    }
+
 
     .article-container {
         grid-template-columns: auto;
