@@ -73,6 +73,8 @@ window.addEventListener('scroll', showFixedNav)
 topLink.addEventListener('click', scrollToTop)
 window.addEventListener('DOMContentLoaded', displayPortfolio(data))
 
+// Setting NavBar to collapse initially
+linksContainer.style.height = 0
 
 scrollLinks.forEach(link => {
     link.addEventListener('click', e => {
