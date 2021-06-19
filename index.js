@@ -1,58 +1,136 @@
 const data = [
     {
         id: 1,      
-        title: 'Calculator App',
+        title: 'Restaurant Landing Page',
         category: 'javascript',
-        tool: 'html, context api',
-        detail: 'Mary had a little lamb little lamb little lamb mary had a littlr lamb Mary had a little lamb little lamb little lamb mary had a littlr lamb whose fur was whiye as snow',
-        img:'image/Untitled.png',
-        website: 'https://google.com',
-        github: 'https://github.com'
+        tool: 'Html, CSS, Bootstrap',
+        detail: 'A Restaurant/Eatery Landing Page created with the Bootstrap Styling frame work. U.I Design from S.M Sowkot',
+        img:'image/restaurant.png',
+        website: 'https://charles-ao.github.io/restaurant_landing_page',
+        github: 'https://github.com/charles-ao/restaurant_landing_page'
      
     },
 
     {
         id: 2,
-        title: 'Google',
+        title: 'CreateX Agency Landing Page',
         category: 'reactjs',
-        tool: 'html, css, bootstrap',
-        detail: 'Mary had a little lamb little lamb little lamb mary had a littlr lamb Mary had a little lamb little lamb little lamb mary had a littlr lamb whose fur was whiye as snow',
-        img:'image/Untitled.png',
-        website: 'https://google.com',
-        github: 'https://github.com'
+        tool: 'react, react-dom, styled-components',
+        detail: 'A typical agency Landing Page developed with React',
+        img:'image/createx.png',
+        website: 'https://createx.netlify.app',
+        github: 'https://github.com/charles-ao/createx'
     },
 
     {
         id: 3,
-        title: 'Twitter App',
-        category: 'reactjs',
-        tool: 'html, css, bootstrap',
-        detail: 'Mary had a little lamb little lamb little lamb mary had a littlr lamb Mary had a little lamb little lamb little lamb mary had a littlr lamb whose fur was whiye as snow',
-        img:'image/Untitled.png',
-        website: 'https://google.com',
-        github: 'https://github.com'
+        title: 'Weather App',
+        category: 'javascript',
+        tool: 'Html, CSS, jQuery, API',
+        detail: 'A Weather forecast application to that shows the current Weather temperature with other details with daily and hourly forecasts',
+        img:'image/weather.png',
+        website: 'https://charles-ao.github.io/weather-app',
+        github: 'https://github.com/charles-ao/weather-app'
     },
 
     {
         id: 4,
-        title: 'E Commerce Website',
-        category: 'wordpress',
-        tool: 'html, css, bootstrap',
-        detail: 'Mary had a little lamb little lamb little lamb mary had a littlr lamb Mary had a little lamb little lamb little lamb mary had a littlr lamb whose fur was whiye as snow',
-        img:'image/Untitled.png',
-        website: 'https://google.com',
-        github: 'https://github.com'
+        title: 'E-STORE',
+        category: 'reactjs',
+        tool: 'react, react-dom, contextAPI, styled components',
+        detail: 'An E-Commerce web application developed with ReactJS, to show products and add products to cart prior to purchase. ',
+        img:'image/estore.png',
+        website: 'https://e-store-react-adedunmola.netlify.app',
+        github: 'https://github.com/charles-ao/e-store-with-React'
     },
 
     {
         id: 5,
-        title: "Builder Story",
+        title: "To-Do App",
         category: 'javascript',
-        tool: 'html, css, bootstrap',
-        detail: 'Mary had a little lamb little lamb little lamb mary had a littlr lamb Mary had a little lamb little lamb little lamb mary had a littlr lamb whose fur was whiye as snow',
-        img:'image/Untitled.png',
-        website: 'https://google.com',
-        github: 'https://github.com'
+        tool: 'Html, CSS, JavaScript',
+        detail: 'A CRUD productivity Application to manage tasks. Add, Edit, Mark as complete and Remove Tasks',
+        img:'image/todo.png',
+        website: 'https://charles-ao.github.io/my-todo-list',
+        github: 'https://github.com/charles-ao/my-todo-list'
+    },
+
+    {
+        id: 6,
+        title: "BintaBadmus",
+        category: 'others',
+        tool: 'Wordpress, Elementor, wooCommerce',
+        detail: 'An E-commerce website for BintaBadmus, a major scarf and modest dress distributor in Nigeria',
+        img:'image/bintabadmus.png',
+        website: 'https://bintabadmus.com',
+        github: 'https://bintabadmus.com'
+    },
+
+    {
+        id: 7,
+        title: "Data Visualization",
+        category: 'others',
+        tool: 'Html, CSS, D3.js, topoJSON',
+        detail: 'Dynamic and Interactive Bar-chart, Scatterplot and Choropleth Charts created with Data Driven Documents (D3.JS)',
+        img:'image/datavisual.png',
+        website: 'https://charles-ao.github.io/data-visualization',
+        github: 'https://github.com/charles-ao/data-visualization'
+    },
+
+    {
+        id: 8,
+        title: "Login Authenticator",
+        category: 'reactjs',
+        tool: 'React, Firebase',
+        detail: 'A email and password login page created with firebase authentication',
+        img:'image/login.png',
+        website: 'https://ade-login-authenticator.netlify.app',
+        github: 'https://github.com/login-authenticator'
+    },
+
+    {
+        id: 9,
+        title: "Calculator",
+        category: 'javascript',
+        tool: 'Html, CSS, JavaScript',
+        detail: 'A simple calculator with basic Addition, Substraction, Multiplication and Division operations',
+        img:'image/calculator.png',
+        website: 'https://charles-ao.github.io/simple_calculator',
+        github: 'https://github.com/charles-ao/simple_calculator'
+    },
+
+    {
+        id: 10,
+        title: "Emoji Thesaurus",
+        category: 'reactjs',
+        tool: 'react, API',
+        detail: 'A library that holds hunndreds of emojis and their respective names and details',
+        img:'image/emoji.png',
+        website: 'https://emoji-thesaurus.netlify.app',
+        github: 'https://github.com/charles-ao/emoji-thesaurus'
+    },
+
+    {
+        id:11,
+        title: "Simon",
+        category: 'javascript',
+        tool: 'Html, CSS, JavaScript',
+        detail: 'Simon is a game of memory skill that creates a series of tones and lights and requires the player to repeat the sequence',
+        img:'image/simon.png',
+        website: 'https://charles-ao.github.io/simonGame',
+        github: 'https://github.com/charles-ao/simonGame'
+    },
+
+    
+    {
+        id: 12,
+        title: "Tic-Tac-Toe",
+        category: 'javascript',
+        tool: 'Html, CSS, JavaScript',
+        detail: 'A game for two players, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.',
+        img:'image/tictactoe.png',
+        website: 'https://charles-ao.github.io/tic-tac-toe',
+        github: 'https://github.com/charles-ao/tic-tac-toe'
     },
 ]
 
