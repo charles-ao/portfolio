@@ -1,5 +1,16 @@
 const data = [
     {
+        id: 101,      
+        title: 'Microsoft Homepage Clone',
+        category: 'reactjs',
+        tool: 'react, react-dom, contextapi',
+        detail: 'A web clone of the Microsoft Official Homepage',
+        img:'image/microsoft.png',
+        website: 'https://adedunmola-microsoft-homepage-clone.netlify.app',
+        github: 'https://github.com/charles-ao/microsoft-homepage-clone'
+    },
+
+    {
         id: 1,      
         title: 'Restaurant Landing Page',
         category: 'javascript',
