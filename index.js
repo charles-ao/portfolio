@@ -1,6 +1,17 @@
 const data = [
     {
         id: 101,      
+        title: 'Carbon Homepage Clone',
+        category: 'reactjs',
+        tool: 'react, react-dom, contextapi, react-animate-onscroll',
+        detail: 'A web homepage clone of Cabon Nigeria Official website',
+        img:'image/carbon.png',
+        website: 'https://carbon-homepage-clone.netlify.app',
+        github: 'https://github.com/charles-ao/carbon-homepage-clone'
+    },
+    
+    {
+        id: 102,      
         title: 'Microsoft Homepage Clone',
         category: 'reactjs',
         tool: 'react, react-dom, contextapi',
