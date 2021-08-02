@@ -269,7 +269,7 @@ nav{
 .rec-c {
     height: 100%;
     background-color: var(--clr-primary-1);
-    animation: move 7s infinite;
+    animation: move 7s ;
 }
 #r01   {
     width: 80%;
@@ -289,7 +289,7 @@ nav{
 #r06   {
     width: 50%;
 }
-#r07  {
+#r07, #r08  {
     width: 60%;
 }
 
