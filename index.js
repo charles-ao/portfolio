@@ -34,6 +34,18 @@ const data = [
     },
 
     {
+        id: 103,      
+        title: 'Jock Equipment Store',
+        category: 'Reactjs',
+        tool: 'react, react-dom, contextapi',
+        detail: 'A Homepage for a sport equipment onlne store, with feature to search for products',
+        img:'image/jock.png',
+        website: 'https://jock-landing-page.netlify.app/',
+        github: 'https://github.com/charles-ao/jock_landingpage'
+     
+    },
+
+    {
         id: 2,
         title: 'CreateX Agency Landing Page',
         category: 'reactjs',
